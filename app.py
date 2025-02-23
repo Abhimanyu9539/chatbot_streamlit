@@ -2,7 +2,7 @@
 # that will write all the code below it to the python file app.py
 # we will then deploy this app.py file on the cloud server where colab is running
 # if you have your own server you can just write the code in app.py and deploy it directly
-%%writefile app.py
+#%%writefile app.py
 
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
